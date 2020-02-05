@@ -29,3 +29,9 @@
     )
 )
 
+(display (sum-up-number-simple '()))
+(newline)
+(display (sum-up-number-simple '(100 200)))
+(newline)
+(display (sum-up-number-simple '(a b c)))
+(newline)
