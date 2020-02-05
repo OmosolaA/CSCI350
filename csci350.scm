@@ -1,0 +1,5 @@
+(define (reverse-general L)
+    (if (null? L)
+        '()
+    )
+)
