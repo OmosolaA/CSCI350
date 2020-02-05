@@ -5,6 +5,12 @@
         (if (list? (car L))
             (append (reverse-general (cdr L))
                 (list (reverse-general (car L))))  
+            (append (reverse-general (cdr L)) (list (car L)))
         )
     )
 )
+
+(display (reverse-general '()))
+(newline)
+(display (reverse-general '(1 2)))
+(newline)
