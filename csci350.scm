@@ -14,3 +14,7 @@
 (newline)
 (display (reverse-general '(1 2)))
 (newline)
+(display (reverse-general '(1 2 3)))
+(newline)
+(display (reverse-general '((a b c) (d e f))))
+(newline)
