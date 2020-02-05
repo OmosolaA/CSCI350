@@ -18,3 +18,11 @@
 (newline)
 (display (reverse-general '((a b c) (d e f))))
 (newline)
+
+;PROBLEM 2 SUM UP NUMBERS SIMPLE
+(define (sum-up-numbers-simple L)
+    (cond
+        ((null? L) 0)
+        
+    )
+)
