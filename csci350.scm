@@ -45,3 +45,10 @@
         (else (+ (car L) (sum-up-numbers-general (cdr L))))
     )
 )   
+
+(display (sum-up-numbers-general '()))
+(newline)
+(display (sum-up-numbers-general '(100)))
+(newline)
+(display (sum-up-numbers-general '(100 200)))
+(newline)
