@@ -35,3 +35,11 @@
 (newline)
 (display (sum-up-number-simple '(a b c)))
 (newline)
+
+;PROBLEM 3 SUM UP NUMBERS GENERAL
+(define (sum-up-numbers-general L)
+    (cond
+        ((null? L) 0)
+        ((list? (car L)) (+ (sum-up-numbers-general (car L))))
+    )
+)   
