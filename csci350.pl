@@ -13,3 +13,10 @@ sum-up-numbers-general([], 0).
 sum-up-numbers-general([A|B], N):-
     is_list(A), 
     sum-up-numbers-general(B, R),
+    sum-up-numbers-general(A, S), 
+    N is R + S. 
+  
+sum-up-numbers-general([A|B], N):-
+    number(A), 
+    sum-up-numbers-general(B, R), 
+    
